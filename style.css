@@ -1,0 +1,147 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+}
+
+html {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+main {
+    padding: 8px;
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+.project-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.project-info {
+    flex: 2;
+    margin-right: 20px;
+}
+
+.tags {
+    margin: 10px 0;
+}
+
+.project-info .tags {
+    margin-bottom: 12px;
+}
+
+.tag {
+    display: inline-block;
+    background-color: #007bff;
+    color: #fff;
+    padding: 3px 8px;
+    border-radius: 5px;
+    font-size: 0.8em;
+    margin-right: 5px;
+}
+
+.tag.python {
+    background-color: #007bff;
+}
+
+.tag.pytorch {
+    background-color: #e03e36;
+}
+
+.tag.scikit-learn {
+    background-color: #4b9cd3;
+}
+
+.tag.deep-learning {
+    background-color: #a23bd2;
+}
+
+.tag.CNN {
+    background-color: #27266f;
+}
+
+.tag.javascript {
+    background-color: #0f820d;
+}
+
+.tag.d3js {
+    background-color: #bd378c;
+}
+
+.tag.machine-learning {
+    background-color: #000000;
+}
+
+.tag.data-visualization {
+    background-color: #323a3f;
+}
+
+.tag.sql {
+    background-color: #765a14;
+}
+
+.tag.computer-vision {
+    background-color: #278184;
+}
+
+.tag.rest-api {
+    background-color: #fb9d22;
+}
+
+.tag.stats {
+    background-color: #279774;
+}
+
+.tag.pandas {
+    background-color: #ff5e00;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+.project-info h2 a {
+    text-decoration: none;
+    color: #333;
+}
+
+.project-info h2 a:hover {
+    text-decoration: underline;
+    color: #007bff;
+}
+
+.project-thumbnail a img {
+    max-width: 400px;
+    height: auto;
+    border-radius: 8px;
+    transition: border 0.3s ease; /* Smooth transition for border */
+}
+
+.project-thumbnail a:hover img {
+    border: 3px solid #149dff; /* Light blue border on hover */
+    border-radius: 8px;
+}
