@@ -19,6 +19,11 @@ header {
     text-align: center;
 }
 
+header h3 a {
+    text-decoration: underline;
+    color: #007bff;
+}
+
 main {
     padding: 8px;
     max-width: 80%;
