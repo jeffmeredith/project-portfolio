@@ -79,6 +79,10 @@ main {
     background-color: #a23bd2;
 }
 
+.tag.LLM {
+    background-color: #55227a;
+}
+
 .tag.CNN {
     background-color: #27266f;
 }
